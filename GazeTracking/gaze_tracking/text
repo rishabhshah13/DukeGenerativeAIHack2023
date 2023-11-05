@@ -1,0 +1,12 @@
+Open a terminal or command prompt.
+Navigate to the directory where the Python script is located.
+Run the script using the following command:
+Copy code
+python gaze_tracking_demo.py
+A window will open displaying the camera feed with gaze tracking annotations. If the script detects that the user is distracted, it will print a message to the console.
+
+To exit the application, press the "q" key.
+
+Make sure you have a camera connected to your computer, as the script will capture video from the camera to perform gaze tracking. Adjust the cv2.imshow and key-handling code as needed for your specific application or integration requirements.
+
+This code provides a simple demonstration of gaze tracking and distraction detection. You can further customize and integrate it into your own projects as needed.
